@@ -1,4 +1,3 @@
-git main
-sanchai bro
+git 
 
 
