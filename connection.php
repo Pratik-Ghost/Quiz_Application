@@ -10,3 +10,4 @@ if(!$connection){
     echo "NOT Connected" ;
     die();
 }
+?>
