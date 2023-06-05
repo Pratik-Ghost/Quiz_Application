@@ -1,13 +1,8 @@
-<?php
-$host ="localhost";
-$port ="3300";
-$username ="root";
-$password ="";
-$database="quiz_application";
-
-$connection=mysqli_connect($host.":".$port, $username, $password, $database);
-if(!$connection){
-    echo "NOT Connected" ;
-    die();
-}
+ <?php 
+ $host="localhost";
+ $port="443";
+ $username="root";
+ $password="";
+ $database="user";
+ $con = mysqli_connect("localhost","root","","loginpage") or die("Couldn't connect");
 ?>
