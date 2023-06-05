@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontpage</title>
+  <style>
+     nav {
+      background-color: black;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    nav .name {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    section {
+      height: 800px;
+      background-color: #f9f9f9;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    #About_us{
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    #Register{
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    #Contact{
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .back-to-top:before {
+      content: "\2191";
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <div class="name"> Quiz_Application</div>
+        <ul><li><a href="#About_us">About_us</a></li></ul>
+        <ul><li><a href="#Register">Register</a></li></ul>
+        <ul><li><a href="#Contact">Contact</a></li></ul> 
+    </nav>
+    <section id="About_us"><br>
+      <br>
+      <h1>About_us</h1>
+    ............................................
+    </section>
+  
+    <section id="Register">
+      <h2>Register</h2>
+      ..............................................
+    </section>
+  
+    <section id="Contact">
+      <h2>Contact</h2>
+     ....................................................
+    </section>
+  <button class="back-to-top" onclick="scrollToTop()"></button>
+
+  <script>
+    var backToTopButtons = document.getElementsByClassName("back-to-top");
+
+    window.addEventListener('scroll', function() {
+      for (var i = 0; i < backToTopButtons.length; i++) {
+        var button = backToTopButtons[i];
+        var section = button.parentNode;
+
+        if (section.getBoundingClientRect().top < 0) {
+          button.style.display = 'block';
+        } else {
+          button.style.display = 'none';
+        }
+      }
+    });
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+</body>
+</html>
