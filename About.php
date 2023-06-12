@@ -55,7 +55,7 @@
                 2.Pratik<br><br>
                 3.Sunil<br><br>
                 4.Dikshya<br><br>
-                5.Kritika
+                5.Kritika<br><br>
             </p>
         </div>
         <img src="https://source.unsplash.com/random/?city,night" alt="Random Pic">
