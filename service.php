@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="1.css">
     <link rel="stylesheet" href="service.css">
 </head>
 <body>
-<div class="header">
- <div class="logo"><h1>Quiz<span>App</span></h1></div> 
- <div class="navbar">
-   <a href="home.php">HOME</a>
-   <a href="about.php">ABOUT US</a>
-   <a href="service.php">SERVICES</a>
-   <a href="contact.php">CONTACT US</a>
- </div>
-</div>
+
+<header>
+        <nav>
+            
+            <div class="mainMenu">
+                <a href="home.php"><span>Home</span></a>
+                <a href="about.php"><span>About Us</span></a>
+                <a href="service.php"><span>Service</span></a>
+                <a href="contact.php"><span>Contact Us</span></a>
+                <a href="login.php">User Login</a>
+            </div class="mainMenu">
+        </nav>
+    </header>
 <br>
 <br><br>
-    <h2>Features</h2>
-    <h3>Our Features & Services.</h3>
+    <h3>Our Services.</h3>
     <div class="row">
         <div class="box">
             <img src="org.jpg">

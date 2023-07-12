@@ -50,7 +50,7 @@
         <style type="text/css">
             body{
                   width: 100%;
-                  background: url(image/4893749.jpg) ;
+                  background-image: url(9.jpg) ;
                   background-position: center center;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
