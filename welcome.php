@@ -105,8 +105,8 @@
                             $qid=$row['qid'];
                             echo '<b>Question &nbsp;'.$sn.'&nbsp;::<br /><br />'.$qns.'</b><br /><br />';
                         }
-                        $q=mysqli_query($con,"SELECT * FROM options WHERE qid='$qid' " );
-                        echo '<form action="update.php?q=quiz&step=2&eid='.$eid.'&n='.$sn.'&t='.$total.'&qid='.$qid.'" method="POST"  class="form-horizontal">
+                        $q=mysqli_query($con,"SELECT * FROM options " );
+                        echo '<form action="update.php?q=quiz&step=2&eid='.$eid.'&n='.$sn.'&t='.$total.'" method="POST"  class="form-horizontal">
                         <br />';
 
                         while($row=mysqli_fetch_array($q) )

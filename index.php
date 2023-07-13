@@ -10,22 +10,26 @@
         <style type="text/css">
             body {
                 width: 100%;
-                background: url(image/4893749.jpg) ;
+                background: url(image/9.jpg) ;
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
             }
+            h3{
+                color: White;
+            }
         </style>
     </head>
     <body>
-        <center>
             <div class="intro">
                 <h1>Quiz App</h1>
+                <h3>User login</h3>
                 <a href="login.php" class="btn"> login </a> &emsp;
                 <a href="register.php" class="btn"> register </a>
+                <h3>Admin login</h3>
+                <a href="admin.php" class="btn"> Admin login </a>
                 <h2> Have a Great Day. </h2>
             </div>
-        </center>
     </body>
 </html>

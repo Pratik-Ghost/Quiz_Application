@@ -103,7 +103,7 @@
       $q=mysqli_query($con,"SELECT * FROM quiz WHERE eid='$eid' " );
       while($row=mysqli_fetch_array($q) )
       {
-        $sahi=$row['sahi'];
+        $correct=$row['correct'];
       }
       if($sn == 1)
       {

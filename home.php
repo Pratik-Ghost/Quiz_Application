@@ -13,14 +13,13 @@
 <body>
     <nav>
         <div class="container">
-               <h1>Quiz App</h1>
                 <input type="checkbox" id="showNav">
                 <label for="showNav" id="toggleNav"><i class="fas fa-bars"></i></label>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="1.php" class="active">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </div>
     </nav>

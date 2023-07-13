@@ -34,7 +34,7 @@
                 <a href="about.php"><span>About Us</span></a>
                 <a href="service.php"><span>Service</span></a>
                 <a href="contact.php"><span>Contact Us</span></a>
-                <a href="login.php">User Login</a>
+                <a href="index.php">User Login</a>
             </div class="mainMenu">
         </nav>
     </header>
@@ -46,7 +46,7 @@
             <p>- Quiz the Best, Win the Rest!</p>
 
 
-            <button><a href="admin.php">Admin Login</a></button>
+            <button><a href="index.php">Admin Login</a></button>
         </div>
 
 
@@ -169,8 +169,6 @@
                 </div>
             </div>
         </section><br>
-        <hr>
-        <hr>
         <footer>
             <div>
                 <span class="logo">Quiz Application</span>
